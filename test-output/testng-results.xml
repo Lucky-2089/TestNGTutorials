@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="12" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-01T14:12:17 IST" name="Suite" finished-at="2024-09-01T14:12:17 IST" duration-ms="110">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day1.Demo1()[pri:0, instance:test.Day1@26e356f0]" name="Demo1" class="test.Day1"/>
+        <method signature="Day3.Login()[pri:0, instance:test.Day3@54a7079e]" name="Login" class="test.Day3"/>
+        <method signature="Day2.aftertest()[pri:0, instance:test.Day2@201a4587]" name="aftertest" class="test.Day2"/>
+        <method signature="Day4.Demo1()[pri:0, instance:test.Day4@67f639d3]" name="Demo1" class="test.Day4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-09-01T14:12:17 IST" name="Test" finished-at="2024-09-01T14:12:17 IST" duration-ms="110">
+      <class name="test.Day1">
+        <test-method signature="Demo()[pri:0, instance:test.Day1@26e356f0]" started-at="2024-09-01T14:12:17 IST" name="Demo" finished-at="2024-09-01T14:12:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="Demo1()[pri:0, instance:test.Day1@26e356f0]" started-at="2024-09-01T14:12:17 IST" name="Demo1" finished-at="2024-09-01T14:12:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+        <test-method is-config="true" signature="Last()[pri:0, instance:test.Day1@26e356f0]" started-at="2024-09-01T14:12:17 IST" name="Last" finished-at="2024-09-01T14:12:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Last -->
+      </class> <!-- test.Day1 -->
+      <class name="test.Day2">
+        <test-method is-config="true" signature="No()[pri:0, instance:test.Day2@201a4587]" started-at="2024-09-01T14:12:17 IST" name="No" finished-at="2024-09-01T14:12:17 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- No -->
+        <test-method signature="aftertest()[pri:0, instance:test.Day2@201a4587]" started-at="2024-09-01T14:12:17 IST" name="aftertest" finished-at="2024-09-01T14:12:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="Demo()[pri:0, instance:test.Day2@201a4587]" started-at="2024-09-01T14:12:17 IST" name="Demo" finished-at="2024-09-01T14:12:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- test.Day2 -->
+      <class name="test.Day3">
+        <test-method is-config="true" signature="Cleanner()[pri:0, instance:test.Day3@54a7079e]" started-at="2024-09-01T14:12:17 IST" name="Cleanner" finished-at="2024-09-01T14:12:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cleanner -->
+        <test-method signature="LoanSearch()[pri:0, instance:test.Day3@54a7079e]" started-at="2024-09-01T14:12:17 IST" name="LoanSearch" finished-at="2024-09-01T14:12:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanSearch -->
+        <test-method signature="Login()[pri:0, instance:test.Day3@54a7079e]" started-at="2024-09-01T14:12:17 IST" name="Login" finished-at="2024-09-01T14:12:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="ServiceAdmin()[pri:0, instance:test.Day3@54a7079e]" started-at="2024-09-01T14:12:17 IST" name="ServiceAdmin" finished-at="2024-09-01T14:12:17 IST" depends-on-methods="test.Day3.LoanSearch" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServiceAdmin -->
+      </class> <!-- test.Day3 -->
+      <class name="test.Day4">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:test.Day4@67f639d3]" started-at="2024-09-01T14:12:17 IST" name="BeforeMethod" finished-at="2024-09-01T14:12:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="Demo(java.lang.String,java.lang.String)[pri:0, instance:test.Day4@67f639d3]" started-at="2024-09-01T14:12:17 IST" name="Demo" finished-at="2024-09-01T14:12:17 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaacedemy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ltelang]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:test.Day4@67f639d3]" started-at="2024-09-01T14:12:17 IST" name="AfterMethod" finished-at="2024-09-01T14:12:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method signature="Demo1()[pri:0, instance:test.Day4@67f639d3]" started-at="2024-09-01T14:12:17 IST" name="Demo1" finished-at="2024-09-01T14:12:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:test.Day4@67f639d3]" started-at="2024-09-01T14:12:17 IST" name="BeforeMethod" finished-at="2024-09-01T14:12:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:test.Day4@67f639d3]" started-at="2024-09-01T14:12:17 IST" name="AfterMethod" finished-at="2024-09-01T14:12:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:test.Day4@67f639d3]" started-at="2024-09-01T14:12:17 IST" name="BeforeMethod" finished-at="2024-09-01T14:12:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="SignUp(java.lang.String,java.lang.String)[pri:0, instance:test.Day4@67f639d3]" started-at="2024-09-01T14:12:17 IST" name="SignUp" data-provider="getUserDetails" finished-at="2024-09-01T14:12:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirstSetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FirstSetpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:test.Day4@67f639d3]" started-at="2024-09-01T14:12:17 IST" name="AfterMethod" finished-at="2024-09-01T14:12:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:test.Day4@67f639d3]" started-at="2024-09-01T14:12:17 IST" name="BeforeMethod" finished-at="2024-09-01T14:12:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="SignUp(java.lang.String,java.lang.String)[pri:0, instance:test.Day4@67f639d3]" started-at="2024-09-01T14:12:17 IST" name="SignUp" data-provider="getUserDetails" finished-at="2024-09-01T14:12:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SecondSetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondSetpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:test.Day4@67f639d3]" started-at="2024-09-01T14:12:17 IST" name="AfterMethod" finished-at="2024-09-01T14:12:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:test.Day4@67f639d3]" started-at="2024-09-01T14:12:17 IST" name="BeforeMethod" finished-at="2024-09-01T14:12:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="SignUp(java.lang.String,java.lang.String)[pri:0, instance:test.Day4@67f639d3]" started-at="2024-09-01T14:12:17 IST" name="SignUp" data-provider="getUserDetails" finished-at="2024-09-01T14:12:17 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ThirdSetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdSetpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:test.Day4@67f639d3]" started-at="2024-09-01T14:12:17 IST" name="AfterMethod" finished-at="2024-09-01T14:12:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="Last()[pri:0, instance:test.Day4@67f639d3]" started-at="2024-09-01T14:12:17 IST" name="Last" finished-at="2024-09-01T14:12:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Last -->
+      </class> <!-- test.Day4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
